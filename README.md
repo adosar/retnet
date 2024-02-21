@@ -17,7 +17,7 @@
 A 3D ConvNet that takes energy voxels as input and ouputs gas adsorption properties.
 
 This repository contains a `PyTorch` implementation of `RetNet`,
-which can be found on [`model.py`](https://github.com/frudakis-research-group/retnet/blob/master/model.py#L14) module.
+which can be found on [`model.py`](https://github.com/adosar/retnet/blob/master/model.py#L14) module.
 
 ## 🚀 Training RetNet
 
