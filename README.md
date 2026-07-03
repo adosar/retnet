@@ -1,3 +1,15 @@
+# 📢 Project Status
+
+> [!IMPORTANT]
+>
+> We recommend using **AIdsorb** for all new projects.
+>
+> AIdsorb is a Python package for deep learning in porous materials, including pretrained models together with training, fine-tuning, evaluation, inference, and data processing utilities.
+>
+> 📦 Source code: https://github.com/adosar/aidsorb
+>
+> 📖 Documentation: https://aidsorb.readthedocs.io/en/latest/
+
 <p align="center">
   <img alt="RetNet Architecture" src="https://raw.githubusercontent.com/adosar/retnet/master/images/retnet.png" width="80%"/>
 </p>
@@ -92,6 +104,12 @@ Check the comments  in `training.py` to customize the training phase on your nee
 > If you want to use a GPU but the VRAM is not enough:
 > 1. Decrease the training batch size to a value smaller than 64.
 > 2. Remove some `Conv` layers or decrease the number of `Conv` filters.
+
+> [!NOTE]
+> The default hyperparameters (e.g., optimizer, scheduler, etc.) are based on the original experiments and may not be optimal for all datasets or tasks.
+> **We recommend tuning them for your specific use case to achieve the best performance**.
+> 
+> For a more streamlined workflow, **we recommend using [AIdsorb](https://github.com/adosar/aidsorb)**.
 
 ## 📰 Citing
 If you use the `RetNet` architecture in your research work or any of the scripts of this repository, please consider citing:
