@@ -112,7 +112,7 @@ Check the comments  in `training.py` to customize the training phase on your nee
 > For a more streamlined workflow, **we recommend using [AIdsorb](https://github.com/adosar/aidsorb)**.
 
 ## 📰 Citing
-If you use the `RetNet` architecture in your research work or any of the scripts of this repository, please consider citing:
+If you use the `RetNet` architecture in your research work or any of the scripts of this repository, please cite:
 
 	@article{Sarikas2024,
 	  title = {Gas adsorption meets deep learning: voxelizing the potential energy surface of metal-organic frameworks},
